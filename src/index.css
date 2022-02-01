@@ -1,13 +1,82 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #7f7c82;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid #fff;
+}
+.container h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.container span {
+  background: #fff;
+  width: 10vw;
+  height: 10vh;
+  font-size: 70px;
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40vw;
+  height: 50vh;
+}
+.container1 input {
+  width: 60%;
+  max-width: 200px;
+  height: 20%;
+  font-size: 50px;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+.container1 .btn {
+  width: 35%;
+  max-width: 150px;
+  height: 15%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40vw;
+  height: 50vh;
+}
+.container3 h2 {
+  color: #fff;
 }
