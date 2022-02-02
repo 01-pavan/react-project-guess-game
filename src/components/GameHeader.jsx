@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
-function GameHeader() {
-  const isCorrect = false;
-  const [random, setRandom] = useState(0);
+function GameHeader({ random, setRandom, isCorrect }) {
   useEffect(() => {
     setRandom(Math.floor(Math.random() * 20) + 1);
   }, []);
